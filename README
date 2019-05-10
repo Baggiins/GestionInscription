@@ -8,6 +8,17 @@ Pour lancer le client, se placer dans le répertoire "ClientModule" et exécuter
 
 Ces deux modules ont été réalisés avec Intellij IDEA Ultimate Edition (gratuit pour les étudiants).
 
+Si vous lancez les deux modules sur la même machine, il faut changer la port de connexion du serveur ou du client:
+	Pour le changer sur le serveur : src --> main --> application.properties : rajouter la ligne :
+								server.port=8081
+	pour le changer sur le client : ClientModule --> config --> index.js : changer la ligne :
+							module.exports ={
+								dev: {
+									...
+									port: 8080
+									// changer cette ligne avec : 
+									port: 8081
+
 
 Serveur :
 	-3 types de diplomes sont créer par défaut, pour les visualiser, faire un get (/allTypeDiplome).
