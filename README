@@ -8,6 +8,14 @@ Pour lancer le client, se placer dans le répertoire "ClientModule" et exécuter
 
 Ces deux modules ont été réalisés avec Intellij IDEA Ultimate Edition (gratuit pour les étudiants).
 
+Si vous désirez lancé le serveur et le client sur la même machine, il faut changer le port par défaut du clien :
+	Aller dans ClientModule --> config --> index.js : puis dans module.export = {
+										dev: {
+											//trouvé la ligne suivante :
+											port : 8080,
+											//puis la modifié par :
+											port : 8081
+
 Serveur :
 	-3 types de diplomes sont créer par défaut, pour les visualiser, faire un get (/allTypeDiplome).
 	-Pour gérer les opérations sur les entités, j'utilise CRUD Repository.
