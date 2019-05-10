@@ -1,6 +1,8 @@
 Pour lancer le serveur, se placer dans ce répertoire et exécuter la commande : gradle bootRun
 
-Pour lancer le client, se placer dans le répertoire "ClientModule" et exécuter la commande : npm run dev
+Pour lancer le client, se placer dans le répertoire "ClientModule" et exécuter les commandes : 
+											-npm install
+											-npm run dev
 
 	(pour installer npm, il faut utiliser la commande suivante : apt install npm).
 
