@@ -8,13 +8,6 @@ Pour lancer le client, se placer dans le répertoire "ClientModule" et exécuter
 
 Ces deux modules ont été réalisés avec Intellij IDEA Ultimate Edition (gratuit pour les étudiants).
 
-Si vous désirez lancé le serveur et le client sur la même machine, il faut changer le port par défaut du clien :
-	Aller dans ClientModule --> config --> index.js : puis dans module.export = {
-										dev: {
-											//trouvé la ligne suivante :
-											port : 8080,
-											//puis la modifié par :
-											port : 8081
 
 Serveur :
 	-3 types de diplomes sont créer par défaut, pour les visualiser, faire un get (/allTypeDiplome).
@@ -27,5 +20,7 @@ Client :
 	-Si certains champs sont vide lors de la validation du formulaire, la requête (POST) ne s'effectue pas et on nous demande de remplir les champs vide.
 	-Si la requête s'effectue sans encombre, une alerte nous prévient.
 
-IMPORTANT
+IMPORTANT (RESOLUE !!)
 !!!Nous avons eu un probleme de derniere minute : en telechargeant notre projet depuis gitlab, nous n'arrivions plus à lancé notre client, à cause d'un probleme apparemment lié (d'après certain forum) à la derniere version de vue js ... Nous avons donc été obligé de faire un gitignore vide pour régler le problème...
+
+
